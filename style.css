@@ -207,7 +207,7 @@ table {
 }
 
 table th:nth-child(1) { width: 5%; }
-table th:nth-child(2) { width: 25%; }
+table th:nth-child(2) { width: 23%; }
 table th:nth-child(3) { width: 20%; }
 table th:nth-child(4) { width: 7%; }
 table th:nth-child(5) { width: 7%; }
@@ -216,6 +216,7 @@ table th:nth-child(7) { width: 7%; }
 table th:nth-child(8) { width: 7%; }
 table th:nth-child(9) { width: 13%; }
 table th:nth-child(10) { width: 7%; }
+table th:nth-child(11) { width: 7%; }
 
 table th, table td {
     padding: 10px;

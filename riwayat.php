@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Riwayat</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/e92eff433b.js" crossorigin="anonymous"></script>
@@ -38,6 +38,7 @@
                         <th>Nilai Akhir</th>
                         <th>Grade</th>
                         <th>Status</th>
+                        <th>IPK</th>
                         <th>Hapus</th>
                         </tr>";
 
@@ -53,6 +54,7 @@
                         echo "<td>". $data['nilaiAkhir']."</td>";
                         echo "<td>". $data['grade']."</td>";
                         echo "<td>". $data['status']."</td>";
+                        echo "<td>". $data['ipk']."</td>";
                         echo "<td>". "<button type='submit' name='delete' value='" . $i ."'> X </button>"."</td>";
                         echo "</tr>";
                         
